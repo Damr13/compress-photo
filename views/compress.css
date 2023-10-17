@@ -1,0 +1,87 @@
+body {
+  height: 90vh;
+}
+
+#listProgressUpload {
+  z-index: 999;
+  min-width: 360px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+  bottom: 0;
+  right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#listProgressUpload #headerListProgress {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #c3c3c3 !important;
+  cursor: default;
+}
+#listProgressUpload #headerListProgress h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #000;
+}
+#listProgressUpload #headerListProgress button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 30px;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}
+#listProgressUpload .fileNamesContainer {
+  margin: 0 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+#listProgressUpload .fileNamesContainer .checkSuccess {
+  color: green;
+}
+#listProgressUpload .fileNamesContainer .checkError {
+  color: red;
+}
+#listProgressUpload .fileNamesContainer p {
+  margin: 0;
+  font-size: 16px;
+}
+#listProgressUpload .fileNamesContainer ul {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 13px;
+}
+#listProgressUpload .fileNamesContainer ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#listProgressUpload .fileNamesContainer ul li .progressBar {
+  width: 60%;
+  align-self: flex-start;
+  margin-left: auto;
+}
+#listProgressUpload .fileNamesContainer ul li .progressBar .progressPercent {
+  float: right;
+  font-size: 14px;
+  color: #000;
+}
+#listProgressUpload .fileNamesContainer ul li h1 {
+  color: #3d3d3d;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+}
+#listProgressUpload .fileNamesContainer ul li progress {
+  width: 100%;
+}/*# sourceMappingURL=compress.css.map */
